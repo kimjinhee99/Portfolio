@@ -233,7 +233,7 @@
     }
     .txt_box {
       position: relative;
-      height: 650px;
+      height: 45vw;
       z-index: 9;
       .title_box {
         background-color: #AED0EE;
@@ -467,6 +467,7 @@
       }
     }
     #problem {
+      height : 80vw;
       .title_box {
         h2 {
           font-size: 1.7vw;

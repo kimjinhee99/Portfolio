@@ -1,18 +1,15 @@
-{
-  "liveSassCompile.settings.formats":[
+{ 
+   "liveSassCompile.settings.generateMap": false,  //﻿map 파일 및 주석 생기지 않게 처리하기
+   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "~/./",
-    },
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "~/./",
+      "savePath": "~/./", // 저장경로. null 설정시 scss와 같은 폴더에 저장
     }
   ],
-  "liveSassCompile.settings.generateMap": false,
-  "liveSassCompile.settings.includeItems":[
-    "/styles/ *.scss"
+  "liveServer.settings.port": 5501,
+  "liveSassCompile.settings.autoprefix": [
+
   ],
+  
 }

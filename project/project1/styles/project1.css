@@ -212,7 +212,7 @@
   }
   main .txt_box {
     position: relative;
-    height: 650px;
+    height: 45vw;
     z-index: 9;
   }
   main .txt_box .title_box {
@@ -448,6 +448,9 @@
     padding-left: 3vw;
     font-size: 1rem;
   }
+  main #problem {
+    height: 80vw;
+  }
   main #problem .title_box h2 {
     font-size: 1.7vw;
     padding-top: 1vw;
@@ -518,4 +521,4 @@
   main #problem .explain_txt_box .explain_txt .explain_sub_txt img {
     width: 20vw;
   }
-}/*# sourceMappingURL=project1.css.map */
+}
