@@ -307,7 +307,7 @@
     font-size: 2vw;
     font-weight: 500;
     position: absolute;
-    left: 50vw; top: 45.5vw;
+    left: 50vw; top: 43.5vw;
     /* height: 100px; */
     animation: arrow 2s linear infinite backwards;
   }
